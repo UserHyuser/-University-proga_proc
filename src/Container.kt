@@ -11,7 +11,7 @@ fun In(fileIn: FileReader, cnt: Container) {
 }
 
 fun Out(fileWriter: FileWriter, cnt: Container) {
-    fileWriter.write("Elements:\n")
+    fileWriter.write("Elements:\n\n")
     for (item in cnt.pg) {
         OutDataProg(item, fileWriter)
     }

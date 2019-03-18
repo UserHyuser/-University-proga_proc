@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
 
     println("***\nStart\n***\n")
 
-    var cont : Container = Container()
+    val cont : Container = Container()
 
     val fileIn = FileReader(args[0])
     In(fileIn, cont)

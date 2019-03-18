@@ -9,24 +9,24 @@ data class ProgLg(var langType: LangType ? = null,
 fun InDataProg(str: String): ProgLg {
     val progLg = ProgLg(
         langType = when (str.split(' ')[0]) {
-            "1" -> LangType.PROCEDURE
-            "2" -> LangType.OOP
+            "0" -> LangType.PROCEDURE
+            "1" -> LangType.OOP
             else -> null
         },
-        creationYear = str.split(' ')[2]
+        creationYear = str.split(' ')[1]
     )
 
     when (str.split(' ')[0]) {
-        "1" -> progLg.procLg = InDataProc(str)
-        "2" -> progLg.oopLg = InDataOop(str)
+        "0" -> progLg.procLg = InDataProc(str)
+        "1" -> progLg.oopLg = InDataOop(str)
     }
 
     return progLg
 }
 
 fun OutDataProg(progLg: ProgLg, fileWriter: FileWriter) {
-    fileWriter.write("${progLg.langType}\t" +
-            "Year creation: ${progLg.creationYear}\t"
+    fileWriter.write("Language type: ${progLg.langType}\n" +
+            "Year creation: ${progLg.creationYear}\n"
     )
     when (progLg.langType) {
         LangType.PROCEDURE -> OutDataProc(procLg = progLg.procLg,

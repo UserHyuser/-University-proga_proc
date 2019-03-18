@@ -4,7 +4,7 @@ data class ProcLg(var isAbstractDataType: Boolean ? = null)
 
 fun InDataProc(str: String) : ProcLg {
     val procLg = ProcLg(
-        isAbstractDataType = when (str.split(' ')[1]) {
+        isAbstractDataType = when (str.split(' ')[2]) {
             "0" -> false
             "1" -> true
             else -> null
@@ -13,4 +13,4 @@ fun InDataProc(str: String) : ProcLg {
     return procLg
 }
 
-fun OutDataProc(procLg: ProcLg ? , fileOut: FileWriter) = fileOut.write("${procLg!!.isAbstractDataType}\n")
+fun OutDataProc(procLg: ProcLg ? , fileOut: FileWriter) = fileOut.write("Is abstract data type: ${procLg!!.isAbstractDataType}\n\n")
