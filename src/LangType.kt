@@ -1,3 +1,3 @@
 enum class LangType {
-    OOP, PROCEDURE,
+    OOP, PROCEDURE, FUNCTIONAL,
 }
