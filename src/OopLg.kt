@@ -4,7 +4,7 @@ data class OopLg(var inh: Inheritance ? = null)
 
 fun InDataOop(str: String): OopLg {
     val oopLg = OopLg(
-        inh = when (str.split(' ')[2]) {
+        inh = when (str.split(' ')[3]) {
             "0" -> Inheritance.SINGLE
             "1" -> Inheritance.PLURAL
             "2" -> Inheritance.INTERFACE
