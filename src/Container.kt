@@ -21,3 +21,16 @@ fun Clear(cnt: Container) {
     cnt.len = 0
     cnt.pg.clear()
 }
+
+
+fun Sort(cnt: Container) {
+    for (i in cnt.pg) {
+        for (j in cnt.pg) {
+            if (i.creationYear!!.toInt() > j.creationYear!!.toInt()) {
+                val tmp = i
+                cnt.pg[cnt.pg.indexOf(i)] = j
+                cnt.pg[cnt.pg.indexOf(j)] = tmp
+            }
+        }
+    }
+}
