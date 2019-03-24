@@ -26,7 +26,8 @@ fun InDataProg(str: String): ProgLg {
 
 fun OutDataProg(progLg: ProgLg, fileWriter: FileWriter) {
     fileWriter.write("Language type: ${progLg.langType}\n" +
-            "Year creation: ${progLg.creationYear}\n"
+            "Year creation: ${progLg.creationYear}\n" +
+            "Quantity years from creation: ${NumberOfYears(progLg)}\n"
     )
     when (progLg.langType) {
         LangType.PROCEDURE -> OutDataProc(procLg = progLg.procLg,
@@ -35,3 +36,5 @@ fun OutDataProg(progLg: ProgLg, fileWriter: FileWriter) {
             fileOut = fileWriter)
     }
 }
+
+fun NumberOfYears(progLg: ProgLg?): Int = 2018 - progLg!!.creationYear!!.toInt()
