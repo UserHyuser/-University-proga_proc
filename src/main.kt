@@ -22,6 +22,12 @@ fun main(args: Array<String>) {
     fileOut1.close()
     println("***\nFilled file\n***\n")
 
+    val fileOut3 = FileWriter(args[1], false)
+    Sort(cont)
+    Out(fileOut3, cont)
+    fileOut3.close()
+    println("***\nFilled file(sort)\n***\n")
+
     Clear(cont)
     println("***\nErased container\n***\n")
 
