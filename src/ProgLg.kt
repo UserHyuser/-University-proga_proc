@@ -32,7 +32,7 @@ fun InDataProg(str: String): ProgLg {
 fun OutDataProg(progLg: ProgLg, fileWriter: FileWriter) {
     fileWriter.write("Language type: ${progLg.langType}\n" +
             "Year creation: ${progLg.creationYear}\n" +
-            "Quantity years from creation: ${NumberOfYears(progLg)}\n"
+            "Quantity years from creation: ${NumberOfYears(progLg)}\n" +
             "Mentions in Internet: ${progLg.mentions}\n"
     )
     when (progLg.langType) {
