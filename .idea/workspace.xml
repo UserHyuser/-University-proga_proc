@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4382b1a2-5f68-41f0-96a1-ffa100e0ad0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LangType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/LangType.kt" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/proga_proc/ProgLgKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/proga_proc/ProgLgKt.class" afterDir="false" />
+>>>>>>> new_func
       <change beforePath="$PROJECT_DIR$/src/ProgLg.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProgLg.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,6 +20,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -112,6 +118,40 @@
         </leaf>
       </split-second>
     </splitter>
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#0#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ProgLg.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> new_func
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,6 +175,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main.kt" />
         <option value="$PROJECT_DIR$/src/Container.kt" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/OopLg.kt" />
         <option value="$PROJECT_DIR$/src/Typing.kt" />
         <option value="$PROJECT_DIR$/src/ProcLg.kt" />
@@ -142,6 +183,12 @@
         <option value="$PROJECT_DIR$/src/FuncLg.kt" />
         <option value="$PROJECT_DIR$/src/ProgLg.kt" />
         <option value="$PROJECT_DIR$/in.txt" />
+=======
+        <option value="$PROJECT_DIR$/in.txt" />
+        <option value="$PROJECT_DIR$/src/ProcLg.kt" />
+        <option value="$PROJECT_DIR$/src/OopLg.kt" />
+        <option value="$PROJECT_DIR$/src/ProgLg.kt" />
+>>>>>>> new_func
       </list>
     </option>
   </component>
@@ -177,7 +224,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553409547735" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553442657835" />
+>>>>>>> new_func
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -239,7 +290,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7788000" />
+=======
+    <option name="totallyTimeSpent" value="6369000" />
+>>>>>>> new_func
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1081" extended-state="6" />
@@ -250,7 +305,11 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25079873" />
+=======
+      <window_info content_ui="combo" id="Project" order="5" weight="0.25079873" />
+>>>>>>> new_func
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -260,7 +319,11 @@
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.32919255" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39855072" />
+=======
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.39855072" />
+>>>>>>> new_func
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -366,6 +429,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/LangType.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -387,11 +451,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/ProcLg.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ProgLg.kt">
+    <entry file="file://$PROJECT_DIR$/src/OopLg.kt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+>>>>>>> new_func
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="741">
           <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
         </state>
@@ -415,6 +493,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+=======
+        <state relative-caret-position="309">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ProgLg.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="29" column="69" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+>>>>>>> new_func
         </state>
       </provider>
     </entry>
