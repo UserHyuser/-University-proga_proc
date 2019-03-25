@@ -3,6 +3,7 @@ import java.io.FileWriter
 
 data class ProgLg(var langType: LangType ? = null,
                   var creationYear: String ? = null,
+                  var mentions: String? = null,
                   var procLg: ProcLg ? = null,
                   var oopLg: OopLg ? = null,
                   var funcLg: FuncLg? = null)
@@ -15,7 +16,8 @@ fun InDataProg(str: String): ProgLg {
             "2" -> LangType.FUNCTIONAL
             else -> null
         },
-        creationYear = str.split(' ')[1]
+        creationYear = str.split(' ')[1],
+        mentions = str.split(' ')[2]
     )
 
     when (str.split(' ')[0]) {
@@ -31,6 +33,7 @@ fun OutDataProg(progLg: ProgLg, fileWriter: FileWriter) {
     fileWriter.write("Language type: ${progLg.langType}\n" +
             "Year creation: ${progLg.creationYear}\n" +
             "Quantity years from creation: ${NumberOfYears(progLg)}\n"
+            "Mentions in Internet: ${progLg.mentions}\n"
     )
     when (progLg.langType) {
         LangType.PROCEDURE -> OutDataProc(procLg = progLg.procLg,

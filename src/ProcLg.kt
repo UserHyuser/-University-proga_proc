@@ -4,7 +4,7 @@ data class ProcLg(var isAbstractDataType: Boolean ? = null)
 
 fun InDataProc(str: String) : ProcLg {
     val procLg = ProcLg(
-        isAbstractDataType = when (str.split(' ')[2]) {
+        isAbstractDataType = when (str.split(' ')[3]) {
             "0" -> false
             "1" -> true
             else -> null
