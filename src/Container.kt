@@ -17,6 +17,15 @@ fun Out(fileWriter: FileWriter, cnt: Container) {
     }
 }
 
+fun Filter(fileWriter: FileWriter, cnt: Container) {
+    fileWriter.write("Elements:\n\n")
+    for (item in cnt.pg) {
+        if(item.procLg != null) {
+            OutDataProg(item, fileWriter)
+        }
+    }
+}
+
 fun Clear(cnt: Container) {
     cnt.len = 0
     cnt.pg.clear()
