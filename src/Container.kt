@@ -22,14 +22,13 @@ fun Clear(cnt: Container) {
     cnt.pg.clear()
 }
 
-
 fun Sort(cnt: Container) {
-    for (i in cnt.pg) {
-        for (j in cnt.pg) {
-            if (i.creationYear!!.toInt() > j.creationYear!!.toInt()) {
-                val tmp = i
-                cnt.pg[cnt.pg.indexOf(i)] = j
-                cnt.pg[cnt.pg.indexOf(j)] = tmp
+    for (i in 0 until cnt.len) {
+        for (j in i until cnt.len) {
+            if (NumberOfYears(cnt.pg[i]) > NumberOfYears(cnt.pg[j])) {
+                val tmp = cnt.pg[i]
+                cnt.pg[i] = cnt.pg[j]
+                cnt.pg[j] = tmp
             }
         }
     }
