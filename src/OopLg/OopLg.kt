@@ -28,7 +28,7 @@ fun InDataOop(str: String): OopLg? {
 fun OutDataOop(oopLg: OopLg ?, fileOut: FileWriter) {
     if (oopLg != null) {
         if (oopLg.inh != null) {
-            fileOut.write("Is abstract data type: ${oopLg.inh}\n\n")
+            fileOut.write("Inheritance: ${oopLg.inh}\n\n")
         }
         else {
             fileOut.write("Inheritance: -\n\n")

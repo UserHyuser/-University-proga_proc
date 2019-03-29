@@ -39,19 +39,31 @@ fun Sort(cnt: Container) {
             cnt.pg.add(cnt.pg.removeAt(i))
             continue
         }
-        for (i in 0 until cnt.len) {
-            if (cnt.pg[i] == null)
+        else
+            if (NumberOfYears(cnt.pg[i]) == null) {
+                cnt.pg.add(cnt.pg.removeAt(i))
+                continue
+            }
+    }
+
+    for (i in 0 until cnt.len) {
+        if (cnt.pg[i] == null)
+            break
+        else
+            if (NumberOfYears(cnt.pg[i]) == null)
                 break
 
-            for (j in i until cnt.len) {
-                if (cnt.pg[j] == null)
+        for (j in i until cnt.len) {
+            if (cnt.pg[j] == null)
+                break
+            else
+                if (NumberOfYears(cnt.pg[j]) == null)
                     break
 
-                if (NumberOfYears(cnt.pg[i])!! > NumberOfYears(cnt.pg[j])!!) {
-                    val tmp = cnt.pg[i]
-                    cnt.pg[i] = cnt.pg[j]
-                    cnt.pg[j] = tmp
-                }
+            if (NumberOfYears(cnt.pg[i])!! > NumberOfYears(cnt.pg[j])!!) {
+                val tmp = cnt.pg[i]
+                cnt.pg[i] = cnt.pg[j]
+                cnt.pg[j] = tmp
             }
         }
     }
