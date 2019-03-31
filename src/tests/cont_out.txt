@@ -1,0 +1,69 @@
+Elements:
+
+Language type: PROCEDURE
+Year creation: 1900
+Quantity years from creation: 119
+Mentions in Internet: 100
+Is abstract data type: false
+
+
+Language type: PROCEDURE
+Year creation: 1800
+Quantity years from creation: 219
+Mentions in Internet: 200
+Is abstract data type: true
+
+
+Language type: OOP
+Year creation: 1700
+Quantity years from creation: 319
+Mentions in Internet: 300
+Inheritance: SINGLE
+
+
+Language type: OOP
+Year creation: 1600
+Quantity years from creation: 419
+Mentions in Internet: 400
+Inheritance: PLURAL
+
+
+Language type: OOP
+Year creation: 1500
+Quantity years from creation: 519
+Mentions in Internet: 500
+Inheritance: INTERFACE
+
+
+Language type: FUNCTIONAL
+Year creation: 2000
+Quantity years from creation: 19
+Mentions in Internet: 1
+Typing: STRONG
+Is lazy  calc: false
+
+
+Language type: FUNCTIONAL
+Year creation: 2001
+Quantity years from creation: 18
+Mentions in Internet: 2
+Typing: STRONG
+Is lazy  calc: true
+
+
+Language type: FUNCTIONAL
+Year creation: 2002
+Quantity years from creation: 17
+Mentions in Internet: 3
+Typing: DYNAMIC
+Is lazy  calc: false
+
+
+Language type: FUNCTIONAL
+Year creation: 2003
+Quantity years from creation: 16
+Mentions in Internet: 4
+Typing: DYNAMIC
+Is lazy  calc: true
+
+

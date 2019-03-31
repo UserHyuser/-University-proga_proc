@@ -1,5 +1,8 @@
+package Container
+
 import java.io.FileReader
 import java.io.FileWriter
+import ProgLg.*
 
 data class Container(var len: Int = 0, var pg: MutableList<ProgLg?> = mutableListOf())
 

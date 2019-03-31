@@ -1,3 +1,5 @@
+package ProgLg
+
 import ProcLg.*
 import OopLg.*
 import FuncLg.*
@@ -111,23 +113,6 @@ fun OutDataProg(progLg: ProgLg?, fileWriter: FileWriter) {
     else {
         fileWriter.write("-\n\n")
     }
-
-//    fileWriter.write("Language type: ${progLg!!.langType}\n" +
-//            "Year creation: ${progLg.creationYear}\n" +
-//            "Quantity years from creation: ${NumberOfYears(progLg)}\n" +
-//            "Mentions in Internet: ${progLg.mentions}\n"
-//    )
-//    if (progLg.langType != null) {
-//
-//    }
-//    when (progLg.langType) {
-//        LangType.PROCEDURE -> OutDataProc(procLg = progLg.procLg,
-//            fileOut = fileWriter)
-//        LangType.OOP -> OutDataOop(oopLg = progLg.oopLg,
-//            fileOut = fileWriter)
-//        LangType.FUNCTIONAL -> OutDataFunc(funcLg = progLg.funcLg,
-//            fileOut = fileWriter)
-//    }
 }
 
 fun NumberOfYears(progLg: ProgLg?): Int? {

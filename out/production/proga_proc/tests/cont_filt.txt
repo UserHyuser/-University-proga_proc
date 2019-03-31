@@ -1,0 +1,16 @@
+Elements:
+
+Language type: PROCEDURE
+Year creation: 1900
+Quantity years from creation: 119
+Mentions in Internet: 100
+Is abstract data type: false
+
+
+Language type: PROCEDURE
+Year creation: 1800
+Quantity years from creation: 219
+Mentions in Internet: 200
+Is abstract data type: true
+
+

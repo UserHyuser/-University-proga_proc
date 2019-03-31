@@ -1,6 +1,8 @@
+import java.io.FileNotFoundException
 import java.io.FileReader
 import java.io.FileWriter
 import kotlin.system.exitProcess
+import Container.*
 
 fun main(args: Array<String>) {
     if (args.size != 2) {
@@ -10,9 +12,19 @@ fun main(args: Array<String>) {
 
     println("***\nStart\n***\n")
 
-    val cont : Container = Container()
+    val cont = Container()
 
-    val fileIn = FileReader(args[0])
+    val fileIn: FileReader
+
+    try {
+        fileIn = FileReader(args[0])
+
+    }
+    catch (e: FileNotFoundException) {
+        println("File not exist!\n")
+        return
+    }
+
     In(fileIn, cont)
     fileIn.close()
     println("***\nFilled container\n***\n")
