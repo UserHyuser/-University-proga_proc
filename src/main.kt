@@ -4,7 +4,7 @@ import java.io.FileWriter
 import kotlin.system.exitProcess
 import Container.*
 
-fun main(args: Array<String>) {
+fun main(args: Array<String>) { // Проверка на количество аргументов
     if (args.size != 2) {
         println("***\nIncorrect command line!\n" +
                 "Waited: command in_file out_file\n***")
@@ -16,9 +16,9 @@ fun main(args: Array<String>) {
     val cont = Container()
 
     val fileIn: FileReader
-
+    
     try {
-        fileIn = FileReader(args[0])
+        fileIn = FileReader(args[0]) // Проверка на корректность введенных данных
 
     }
     catch (e: FileNotFoundException) {
@@ -26,7 +26,7 @@ fun main(args: Array<String>) {
         return
     }
 
-    In(fileIn, cont)
+    In(fileIn, cont) // Заполение контейнеров
     fileIn.close()
     println("***\nFilled container\n***\n")
 
