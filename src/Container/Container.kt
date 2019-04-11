@@ -5,7 +5,7 @@ import java.io.FileWriter
 import ProgLg.*
 
 data class Container(var len: Int = 0, var pg: MutableList<ProgLg?> = mutableListOf())
-
+// Функции, используемые в программе
 fun In(fileIn: FileReader, cnt: Container) {
     for (line in fileIn.readLines()) {
         cnt.pg.add(InDataProg(line))
