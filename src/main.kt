@@ -36,6 +36,11 @@ fun main(args: Array<String>) {
 
     println("***\nFilled file\n***\n")
 
+    val fileOut5 = FileWriter(args[1], false)
+    Multimethod(cont, fileOut5)
+    fileOut5.close()
+    println("***\nMultimethod\n***\n")
+
     val fileOut3 = FileWriter(args[1], false)
     Sort(cont)
     Out(fileOut3, cont)
