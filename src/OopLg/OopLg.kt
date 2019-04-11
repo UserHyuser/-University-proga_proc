@@ -13,14 +13,16 @@ fun InDataOop(str: String): OopLg? {
             "1" -> Inheritance.PLURAL
             "2" -> Inheritance.INTERFACE
             else -> {
-                println("Warn: OopLg.inh\nWrong initial parametr \"inh\".\n\n")
+                println("Warn: OopLg.inh\n" +
+                        "Wrong initial parametr \"inh\".\n\n")
                 null
             }
         }
         oopLg
     }
     catch (e: IndexOutOfBoundsException) {
-        println("Warn: OopLg.inh\nSmall quantity of initial parameters.\n\n")
+        println("Warn: OopLg.inh\n" +
+                "Small quantity of initial parameters.\n\n")
         null
     }
 }

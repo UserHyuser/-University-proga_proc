@@ -5,7 +5,6 @@ import OopLg.*
 import FuncLg.*
 import java.io.FileWriter
 
-
 data class ProgLg(var langType: LangType ? = null,
                   var creationYear: Int ? = null,
                   var mentions: Int? = null,
@@ -30,13 +29,15 @@ fun InDataProg(str: String): ProgLg? {
                 LangType.FUNCTIONAL
             }
             else -> {
-                println("Warn: ProgLg.langType\nWrong initial parameter \"langType\".\n\n")
+                println("Warn: ProgLg.langType\n" +
+                        "Wrong initial parameter \"langType\".\n\n")
                 null
             }
         }
     }
     catch (e: IndexOutOfBoundsException) {
-        println("Warn: ProgLg.langType\nSmall quantity of initial parameters.\n\n")
+        println("Warn: ProgLg.langType\n" +
+                "Small quantity of initial parameters.\n\n")
         return null
     }
 
@@ -44,11 +45,13 @@ fun InDataProg(str: String): ProgLg? {
         str.split(' ')[1].toInt()
     }
     catch (e: IndexOutOfBoundsException) {
-        println("Warn: ProgLg.creationYear\nSmall quantity of initial parameters.\n\n")
+        println("Warn: ProgLg.creationYear\n" +
+                "Small quantity of initial parameters.\n\n")
         return null
     }
     catch (e: NumberFormatException) {
-        println("Warn: ProgLg.creationYear\nWrong initial parameter \"creationYear\" (Can't convert String to Int).\n\n")
+        println("Warn: ProgLg.creationYear\n" +
+                "Wrong initial parameter \"creationYear\" (Can't convert String to Int).\n\n")
         return null
     }
 
@@ -56,11 +59,13 @@ fun InDataProg(str: String): ProgLg? {
         str.split(' ')[2].toInt()
     }
     catch (e: IndexOutOfBoundsException) {
-        println("Warn: ProgLg.mentions\nSmall quantity of initial parameters.\n\n")
+        println("Warn: ProgLg.mentions\n" +
+                "Small quantity of initial parameters.\n\n")
         return null
     }
     catch (e: NumberFormatException) {
-        println("Warn: ProgLg.mentions\nWrong initial parameter \"mentions\" (Can't convert String to Int).\n\n")
+        println("Warn: ProgLg.mentions\n" +
+                "Wrong initial parameter \"mentions\" (Can't convert String to Int).\n\n")
         return null
     }
 

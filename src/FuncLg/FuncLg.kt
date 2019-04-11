@@ -14,13 +14,15 @@ fun InDataFunc(str: String): FuncLg? {
             "0" -> Typing.STRONG
             "1" -> Typing.DYNAMIC
             else -> {
-                println("Warn: FuncLg.typing\nWrong initial parameter \"typing\".\n\n")
+                println("Warn: FuncLg.typing\n" +
+                        "Wrong initial parameter \"typing\".\n\n")
                 null
             }
         }
     }
     catch (e: IndexOutOfBoundsException) {
-        println("Warn: FuncLg.typing\nSmall quantity of initial parameters.\n\n")
+        println("Warn: FuncLg.typing\n" +
+                "Small quantity of initial parameters.\n\n")
         return null
     }
 
@@ -29,13 +31,15 @@ fun InDataFunc(str: String): FuncLg? {
             "0" -> false
             "1" -> true
             else -> {
-                println("Warn: FuncLg.isLazyCalc\nWrong initial parameter \"isLazyCalc\".\n\n")
+                println("Warn: FuncLg.isLazyCalc\n" +
+                        "Wrong initial parameter \"isLazyCalc\".\n\n")
                 null
             }
         }
     }
     catch (e: IndexOutOfBoundsException) {
-        println("Warn: FuncLg.isLazyCalc\nSmall quantity of initial parameters.\n\n")
+        println("Warn: FuncLg.isLazyCalc\n" +
+                "Small quantity of initial parameters.\n\n")
         return null
     }
     return funcLg

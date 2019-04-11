@@ -6,7 +6,8 @@ import Container.*
 
 fun main(args: Array<String>) {
     if (args.size != 2) {
-        println("***\nIncorrect command line!\nWaited: command in_file out_file\n***")
+        println("***\nIncorrect command line!\n" +
+                "Waited: command in_file out_file\n***")
         exitProcess(1)
     }
 
@@ -32,6 +33,7 @@ fun main(args: Array<String>) {
     val fileOut1 = FileWriter(args[1], false)
     Out(fileOut1, cont)
     fileOut1.close()
+
     println("***\nFilled file\n***\n")
 
     val fileOut3 = FileWriter(args[1], false)

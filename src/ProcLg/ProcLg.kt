@@ -12,14 +12,16 @@ fun InDataProc(str: String) : ProcLg ? {
             "0" -> false
             "1" -> true
             else -> {
-                println("Warn: ProcLg.isAbstractDataType\nWrong initial parameter \"isAbstractDataType\".\n\n")
+                println("Warn: ProcLg.isAbstractDataType\n" +
+                        "Wrong initial parameter \"isAbstractDataType\".\n\n")
                 null
             }
         }
         procLg
     }
     catch (e: IndexOutOfBoundsException) {
-        println("Warn: ProcLg.isAbstractDataType\nSmall quantity of initial parameters.\n\n")
+        println("Warn: ProcLg.isAbstractDataType\n" +
+                "Small quantity of initial parameters.\n\n")
         null
     }
 }
@@ -37,7 +39,3 @@ fun OutDataProc(procLg: ProcLg ? , fileOut: FileWriter) {
         fileOut.write("-\n\n")
     }
 }
-
-
-
-//fileOut.write("Is abstract data type: ${procLg!!.isAbstractDataType}\n\n")
